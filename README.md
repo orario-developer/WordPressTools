@@ -1,0 +1,2 @@
+まず下の拡張機能をインストールしてください
+https://chrome.google.com/webstore/detail/scriptautorunner/gpgjofmpmjjopcogjgdldidobhmjmdbm
