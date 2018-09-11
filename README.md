@@ -1,6 +1,7 @@
 # WPT(WordPressTools)
 - WordPressでの記事編集作業を効率化するスクリプトです。
 - 実行前には記事を保存しておき、復活できるようにしてください。
+- 操作パネルが表示されなくなったり、バグ、要望があればSlackでお願いします。
 
 ## 使い方
 - 下記の準備が完了している場合は記事編集画面でこのような入力フォームが追加されていると思われます。  
@@ -20,7 +21,6 @@
 就活のタイミング
 
 佐藤：いつ頃から就活をされたのですか？
-
 
 田中：35億年前ですね
 
@@ -49,6 +49,6 @@ https://chrome.google.com/webstore/detail/scriptautorunner/gpgjofmpmjjopcogjgdld
   
 - この画像のとおりに編集していきます。  
 最初に表示されているボックスがあったら無視するかゴミ箱マークで削除してください。
-- プラスの横の鎖マークを押すとボックスが出てきます。ここに`https://cdn.rawgit.com/asmfnk/WordPressTools/6f4568a8/wpt_main.js`と入力してください。  これはこのGithubのサーバーに上がっているWPTファイルです。
+- プラスの横の鎖マークを押すとボックスが出てきます。ここに`https://rawgit.com/asmfnk/WordPressTools/master/wpt_main.js`と入力してください。  これはこのGithubのサーバーに上がっているWPTファイルです。
 - その下の`target host name`には`shukatsuhack.com`を入力してください。
 - 最後にコンセントマークをクリックして全体が黄色になったら完了です。これによりshukatsuhack.comにアクセスするとスクリプトが自動で実行されるようになります。
