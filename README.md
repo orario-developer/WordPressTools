@@ -46,6 +46,6 @@ https://chrome.google.com/webstore/detail/scriptautorunner/gpgjofmpmjjopcogjgdld
   
 - この画像のとおりに編集していきます。  
 最初に表示されているボックスがあったら無視するかゴミ箱マークで削除してください。
-- プラスの横の鎖マークを押すとボックスが出てきます。ここに`https://rawgit.com/asmfnk/WordPressTools/master/wpt_main.js`と入力してください。  これはこのGithubのサーバーに上がっているWPTファイルです。
+- プラスの横の鎖マークを押すとボックスが出てきます。ここに`https://cdn.rawgit.com/asmfnk/WordPressTools/6f4568a8/wpt_main.js`と入力してください。  これはこのGithubのサーバーに上がっているWPTファイルです。
 - その下の`target host name`には`shukatsuhack.com`を入力してください。
 - 最後にコンセントマークをクリックして全体が黄色になったら完了です。これによりshukatsuhack.comにアクセスするとスクリプトが自動で実行されるようになります。
