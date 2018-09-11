@@ -6,7 +6,7 @@
 # 準備
 WPTをWordPress内で実行するためにChromeの拡張機能をインストールします。  
 （説明はChromeでの使い方だけですが、JSを実行できれば他のブラウザでも可能だと思います）  
-- まず下の拡張機能`ScriptAutoRunner`をインストールしてください。  
+- まず下の拡張機能をインストールしてください。  
 <a href="https://chrome.google.com/webstore/detail/scriptautorunner/gpgjofmpmjjopcogjgdldidobhmjmdbm" target="_blank">ScriptAutoRunner</a>  
 - インストールするとChromeの上部に稲妻マークが出てくると思うのでそこから設定に入ってください。  
   
