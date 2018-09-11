@@ -12,7 +12,7 @@ function strConvetBaloons(oldStr, Tag, params) {
     var balloons = oldStr.match(tagConvertReg(Tag));
 
     for (var i = 0; i < balloons.length; i++) {
-        oldStr = oldStr.replace(balloons[i].trim(), html[0]+balloons[i].trim()+html[1]);
+        oldStr = oldStr.replace(balloons[i].replace("<div","").trim(), html[0]+balloons[i].replace(Tag,"").trim()+html[1]);
     }
 
     console.log("変換中！");
@@ -31,7 +31,7 @@ function countConvertStr(str, tag){
 }
 
 function tagConvertReg(tag){
-    return new RegExp("(\\n"+tag+"|\\r\\n"+tag+"|\\r"+tag+").*?(\\n\\n|\\r\\n\\r\\n|\\r\\r)","gs");
+    return new RegExp("(\\n"+tag+"|\\r\\n"+tag+"|\\r"+tag+").*?(\\n\\n|\\r\\n\\r\\n|\\r\\r|\\n<div|\\r\\n<div|\\r<div)","gs");
 }
 
 function addPanel(){
@@ -45,7 +45,7 @@ function convertBalloon() {
     var tag  = document.getElementById("myBalloon01").value;
     var name = document.getElementById("myBalloon02").value;
     var url  = document.getElementById("myBalloon03").value;
-    var side = document.getElementById("myBalloon03").value === true? 'right': 'left';
+    var side = document.getElementById("myBalloon04").checked === true? 'right': 'left';
 
     if(!tag || !name || !url){
         alert("未入力の項目があります。");
