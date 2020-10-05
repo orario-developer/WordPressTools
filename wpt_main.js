@@ -70,8 +70,8 @@ function convertBalloon() {
 var Iter = 0;
 
 var url = window.location.href;
-if(url.indexOf('action=edit') !== -1 || url.indexOf('post-new.php') !== -1){
-    var loadIter = setInterval(function(){
+if (url.indexOf('action=edit') !== -1 || url.indexOf('post-new.php') !== -1) {
+    var loadIter = setInterval(() => {
         if(document.getElementById('mceu_23-body')){
             clearInterval(loadIter);
             addPanel();
