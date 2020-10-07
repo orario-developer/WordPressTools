@@ -15,6 +15,7 @@ WPTをWordPress内で実行するためにChromeの拡張機能をインスト�
 - この画像のとおりに編集していきます。  
 最初に表示されているボックスがあったら無視するかゴミ箱マークで削除してください。
 - プラスの横の鎖マークを押すとボックスが出てきます。ここに`https://rawgit.com/asmfnk/WordPressTools/master/wpt_main.js`と入力してください。  これはこのGithubのサーバーに上がっているWPTファイルです。
+- ※ rawgitがサービス提供を終了していましたので、jsdeliverにmigrateしました。URLはこちら( `https://cdn.jsdelivr.net/gh/asmfnk/WordPressTools@master/wpt_main.js` ) です。（2020/10/04追記）
 - その下の`target host name`には`shukatsuhack.com`を入力してください。
 - 最後にコンセントマークをクリックして全体が黄色になったら完了です。これによりshukatsuhack.comにアクセスするとスクリプトが自動で実行されるようになります。
 
