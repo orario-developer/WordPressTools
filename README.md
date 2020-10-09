@@ -76,6 +76,7 @@ WPTでこれを簡単に変換できるようにしました。
 
 3. `ScriptAutoRunner` にセットするURLを以下に変更。`https://cdn.jsdelivr.net/gh/YOUR_REPOSITORY/WordPressTools@YOUR_BRANCH/wpt_main.js` (`YOUR_REPOSITORY` には、自分のgithubのユーザー名が入ります。また、`YOUR_BRANCH` には、開発中のbranchが入ります。)  
 reference: https://www.jsdelivr.com/?docs=gh  
+※ branch名を `hogehoge/fugafuga` のように、 `/` が入ったものにしてしまうと、上手く反映されない可能性があります。
 
 ### change log
 - 2020/10/04  
