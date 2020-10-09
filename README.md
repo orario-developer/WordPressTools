@@ -53,6 +53,7 @@ WPTでこれを簡単に変換できるようにしました。
 
 ……
 ```
+
 # 各フォームの説明  
 |フォーム|説明|
 |:---|:---|
@@ -65,10 +66,20 @@ WPTでこれを簡単に変換できるようにしました。
 - 開始ワードは直前に改行がひつようです（一行目文頭の開始ワードは認識されません）。
 - セリフの終了は***2回の改行***が必要です（文章の最後は忘れがちなので注意）。
 
-### 変更ログ
-#### 2020/10/04
+# for developer
+### how to test
+1. `https://github.com/orario-developer/WordPressTools.git` をfork。
+
+2. 変更分を、forkした自分のrepositoryにpush。
+
+2. `準備` 欄の手順に従い、WPをセットアップ。
+
+3. `ScriptAutoRunner` にセットするURLを以下に変更。`https://cdn.jsdelivr.net/gh/YOUR_REPOSITORY/WordPressTools@master/wpt_main.js` (`YOUR_REPOSITORY` には、自分のgithubのユーザー名が入ります。)
+
+### change log
+- 2020/10/04  
 「テキスト」を選択した本文入力時に、簡易入力機能が標示されないバグを修正。
 
-#### 2020/10/09
+- 2020/10/09  
 READMEを編集。  
 デザインを修正。

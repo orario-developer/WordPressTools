@@ -1,4 +1,4 @@
-var version = "v1.1";
+var version = "v1.1.1";
 
 function strConvetBaloons(oldStr, Tag, params) {
     console.log("変換中！");
