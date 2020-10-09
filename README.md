@@ -85,3 +85,6 @@ reference: https://www.jsdelivr.com/?docs=gh
 - 2020/10/09  
 READMEを編集。  
 デザインを修正。
+
+- 2020/10/09（2）  
+デザインを修正。
